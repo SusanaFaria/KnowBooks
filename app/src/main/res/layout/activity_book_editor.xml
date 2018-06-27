@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".BookEditor">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:id="@+id/book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/book_title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/book_title_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/author"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/author_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/price"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/quantity"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/supplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/supplier"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_supplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/supplier_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/supplier_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:text="@string/supplier_num"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <EditText
+            android:id="@+id/edit_book_supplier_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/supplier_num_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp" />
+    </LinearLayout>
+</LinearLayout>
